@@ -14,7 +14,7 @@
     This is a placeholder for base href that will be replaced by the value of
     the `--base-href` argument provided to `flutter build`.
   -->
- 
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -61,11 +61,12 @@
         };
       
         // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
+        firebase.initializeApp(firebaseConfig);
+       // const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
       </script>
   <script>
-    var serviceWorkerVersion = '580012545';
+    var serviceWorkerVersion = '3389945055';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
