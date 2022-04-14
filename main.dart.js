@@ -103893,7 +103893,7 @@ l=m
 m=o
 o=l}n.toString
 n=A.j(c,c,m*0.03)
-m=A.a5(!1,c,!0,A.YF("/newLogo.svg",m*0.15),c,!0,c,c,c,c,c,c,c,c,c,c,new A.aH3(a1),c,c,c,c,c,c)
+m=A.a5(!1,c,!0,A.YF("assets/newLogo.svg",m*0.15),c,!0,c,c,c,c,c,c,c,c,c,c,new A.aH3(a1),c,c,c,c,c,c)
 k=d.a.d
 s=a1.k(s).f
 j=d.a
@@ -104078,10 +104078,10 @@ A.cd.prototype={
 cM(a,b,c,d){var s=null,r=c.k(t.w).f.a.a>=1100?350:b*0.6,q=A.bq(15)
 return A.p(B.y,A.p(s,A.n(d,s,s,s,s,A.k(s,s,B.d,s,s,s,s,s,"Poppins",s,s,s,s,B.q,s,s,!0,s,s,s,s,s,s,s,s),s,s,s),B.e,s,s,s,s,s,s,s,s,s,s),B.e,s,s,new A.ab(new A.h(4282337360),s,s,q,s,s,B.p),s,40,s,new A.x(10,5,10,5),s,s,r)}}
 A.dB.prototype={
-t(a,b){return new A.ac(new A.x(0,0,0,0),A.YF("assets/Logo 2 1.svg",b.k(t.w).f.a.a>=1100?200:this.c*0.42),null)}}
+t(a,b){return new A.ac(new A.x(0,0,0,0),A.YF("assets/newLogo.svg",b.k(t.w).f.a.a>=1100?200:this.c*0.42),null)}}
 A.Us.prototype={
 t(a,b){var s=this.c,r=s*0.2
-return new A.ac(new A.x(r,0,r,0),A.YF("assets/Logo 2 1.svg",s*0.42),null)}}
+return new A.ac(new A.x(r,0,r,0),A.YF("assets/newLogo.svg",s*0.42),null)}}
 A.V4.prototype={
 t(a,b){var s,r=null,q=this.e,p=q.b,o=p.Y(0,"dpUrl")
 q=q.a
@@ -110034,7 +110034,7 @@ a0f(){var s=this
 if(s.x.a.a.length!==0&&s.f.a.a.length!==0)s.C(new A.aFa(s))
 else s.C(new A.aFb(s))},
 n(a){this.aY(0)},
-t(a3,a4){var s,r,q,p=this,o=null,n="Poppins",m=t.w,l=a4.k(m).f.a.a,k=a4.k(m).f.a.b,j=l*0.1,i=a4.k(m).f.a.a>=1100?l*0.6:l,h=A.a2(B.h.U(255*(a4.k(m).f.a.a>=1100?0.6:0)),0,0,0),g=A.bK(new A.aD(15,15)),f=A.YF("/newLogo.svg",l*0.22),e=k*0.06,d=A.j(o,e,o),c=A.n("Enter your Credentials",o,o,o,o,A.k(o,o,B.d,o,o,o,o,o,n,o,o,18,o,B.q,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),b=A.j(o,k*0.02,o),a=k*0.01,a0=A.j(o,a,o),a1=A.j(o,a,o),a2=a4.k(m).f.a.a>=1100?600:l*0.8
+t(a3,a4){var s,r,q,p=this,o=null,n="Poppins",m=t.w,l=a4.k(m).f.a.a,k=a4.k(m).f.a.b,j=l*0.1,i=a4.k(m).f.a.a>=1100?l*0.6:l,h=A.a2(B.h.U(255*(a4.k(m).f.a.a>=1100?0.6:0)),0,0,0),g=A.bK(new A.aD(15,15)),f=A.YF("assets/newLogo.svg",l*0.22),e=k*0.06,d=A.j(o,e,o),c=A.n("Enter your Credentials",o,o,o,o,A.k(o,o,B.d,o,o,o,o,o,n,o,o,18,o,B.q,o,o,!0,o,o,o,o,o,o,o,o),o,o,o),b=A.j(o,k*0.02,o),a=k*0.01,a0=A.j(o,a,o),a1=A.j(o,a,o),a2=a4.k(m).f.a.a>=1100?600:l*0.8
 m=a4.k(m).f.a.a>=1100?l*0.02:l*0.06
 s=A.bK(new A.aD(15,15))
 r=A.k(o,o,o,o,o,o,o,o,n,o,o,o,o,o,o,o,!0,o,o,o,o,o,o,o,o)
